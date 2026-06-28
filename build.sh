@@ -1,6 +1,8 @@
 #!/bin/bash
 
 export BUILD_DIR="build"
+export JAVA_DIR="build"
+export DLL_DIR="build"
 export ARCH_TYPE=$(uname -m)
 
 echo "Building for ${OSTYPE} ${ARCH_TYPE}"
